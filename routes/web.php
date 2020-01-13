@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/', 'Controller1@index');
+Route::get('/stella', 'Controller1@index');
+
+Route::get('/luna', 'Controller2@index');

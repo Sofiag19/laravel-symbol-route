@@ -8,8 +8,6 @@ class Controller1 extends Controller
 {
     public function index() {
 
-      $prova = "Hello World";
-
-      return view('welcome', compact('prova'));
+      return view('layouts.parteCentrale');
     }
 }
