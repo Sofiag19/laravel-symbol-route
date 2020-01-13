@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 class Controller1 extends Controller
 {
     public function index() {
-      return view('welcome');
+
+      $prova = "Hello World";
+
+      return view('welcome', compact('prova'));
     }
 }
